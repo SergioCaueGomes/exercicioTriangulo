@@ -73,21 +73,21 @@ font-weight: 700;
 				<div class="mb-4">
 					<label for="exampleInputValor1" class="form-label">Digite
 						Valor 1: </label> <br>
-					<input type="password" class="form-control" id="exampleInputValor1"
+					<input name="val1" type="number" class="form-control" id="exampleInputValor1"
 						aria-describedby="Valor1">
 				</div>
 				<br>
 				<div class="mb-4">
 					<label for="exampleInputValor2" class="form-label">Digite
 						Valor 2: </label> <br>
-					<input type="password" class="form-control"
+					<input name="val2" type="number" class="form-control"
 						id="exampleInputPassword1">
 				</div>
 				<br>
 				<div class="mb-4">
 					<label for="exampleInputValor3" class="form-label">Digite
 						Valor 3: </label> <br>
-					<input type="password" class="form-control"
+					<input name="val3" type="number" class="form-control"
 						id="exampleInputPassword1">
 				</div>
 				<br>
