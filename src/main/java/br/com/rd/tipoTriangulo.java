@@ -45,23 +45,28 @@ public class tipoTriangulo extends HttpServlet {
 		
 		
 		if(val1 < 0 && val2 < 0 && val3 < 0) {
-			System.out.println("Favor digitar um valor valido");
+			response.getWriter().println("Favor digitar um valor valido");
+			
 		}else if(val2 <= 0 && val3 <= 0 && val1 < 0 || val3<= 0 && val1 <= 0 || val2 <= 0 && val1 <= 0  ){
-			System.out.println("Você construiu uma reta.");
+			response.getWriter().println("Você construiu uma reta.");
+			
 		}else if(val1 > 0 && val2 > 0 && val3 <= 0 || val3 > 0 && val1 > 0 || val2 <= 0 || val3 > 0 && val2 > 0 && val1 <= 0){
 			if(val1 == val2 && val2 == 3 && val1 == val2) {
-				System.out.println("Você construiu um quadrado");
+				response.getWriter().println("Você construiu um quadrado");
+
 			}else {
-				System.out.println("Você construiu um retangulo");
+				response.getWriter().println("Você construiu um retangulo");
+				
 			}
 			
 			
 		}else if(val1 != val2 && val2 != val3 && val3 != val1) {
-				System.out.println("Você construiu um triangulo escaleno");
+			response.getWriter().println("Você construiu um triangulo escaleno");
+				
 			}else if(val1 == val2 && val2 == val3 && val3 == val1) {
-				System.out.println("Você constriu um triangulo equilatero");
+				response.getWriter().println("Você constriu um triangulo equilatero");
 			}else {
-				System.out.println("Você construiu um triangulo escaleno");
+				response.getWriter().println("Você construiu um triangulo escaleno");
 			}
 			
 	}

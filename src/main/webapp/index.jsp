@@ -69,24 +69,21 @@ font-weight: 700;
 		<div class="cantainer" id="triangulo">
 			<h2>Qual o tipo de Triângulo?</h2>
 
-			<form class="formulario">
+			<form class="formulario" method="post" action="tipoTriangulo">
 				<div class="mb-4">
-					<label for="exampleInputValor1" class="form-label">Digite
-						Valor 1: </label> <br>
+					<label for="exampleInputValor1" class="form-label">Digite Valor 1: </label> <br>
 					<input name="val1" type="number" class="form-control" id="exampleInputValor1"
 						aria-describedby="Valor1">
 				</div>
 				<br>
 				<div class="mb-4">
-					<label for="exampleInputValor2" class="form-label">Digite
-						Valor 2: </label> <br>
+					<label for="exampleInputValor2" class="form-label">Digite Valor 2: </label> <br>
 					<input name="val2" type="number" class="form-control"
 						id="exampleInputPassword1">
 				</div>
 				<br>
 				<div class="mb-4">
-					<label for="exampleInputValor3" class="form-label">Digite
-						Valor 3: </label> <br>
+					<label for="exampleInputValor3" class="form-label">Digite Valor 3: </label> <br>
 					<input name="val3" type="number" class="form-control"
 						id="exampleInputPassword1">
 				</div>
